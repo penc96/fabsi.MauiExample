@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="fabsi.MauiExample.AppShell"
+    x:Class="fabsi.MauiExample.App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:fabsi.MauiExample"
+    xmlns:local="clr-namespace:fabsi.MauiExample.App"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
