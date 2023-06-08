@@ -4,6 +4,7 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
+        var t = TimeSpan.ParseExact("", "HH:mm:ss", null);
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
